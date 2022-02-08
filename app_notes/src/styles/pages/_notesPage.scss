@@ -1,0 +1,293 @@
+.table {
+  color: $color-2;
+}
+
+//style ajouter une nouvelle note
+
+//style titre
+.title-notes {
+  margin-top: 10px;
+  font-size: 20px;
+  color: $color-1;
+  border-top: 3px solid $color-2;
+  border-bottom: 3px solid $color-2;
+  background-color: $color-4;
+}
+
+//style titre carnet
+.title-carnet {
+  margin-top: 10px;
+  text-decoration: underline double $color-2;
+  font-size: 25px;
+  color: $color-1;
+  background-color: $color-4;
+}
+
+//style textarea
+.textarea-note {
+  border: 3px solid $color-6;
+  border-radius: 3px;
+  width: 100%;
+  height: 100px;
+  padding-left: 10px;
+  font-size: 17px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.textarea-note:hover {
+  border: 3px solid $color-1;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+//style input text
+.text-note {
+  border: 3px solid $color-6;
+  border-radius: 3px;
+  font-size: 17px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-note:hover {
+  border: 3px solid $color-1;
+  border-radius: 5px;
+  font-size: 17px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+// style all button
+
+//buttons annuler/enregistrer
+.button-notes {
+  position: relative;
+  display: inline-block;
+  color: $color-2;
+  background-color: $color-4;
+  border-radius: 6px;
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  margin-top: 10px;
+  border: 2px black solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+
+.button-notes:hover {
+  background-color: $color-4;
+  color: $color-2;
+  border: 2px $color-6 solid;
+  transform: scale(1.1);
+  background-position: -40px;
+  box-shadow: 0 3px 6px;
+  text-align: center;
+}
+
+//buttons retour
+.button-notes-b {
+  color: $color-2;
+  background-color: $color-4;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 2px black solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+
+.button-notes-b:hover {
+  background-color: $color-4;
+  color: $color-2;
+  border: 2px $color-6 solid;
+  transform: scale(1.1);
+  background-position: -40px;
+  box-shadow: 0 3px 6px;
+  text-align: center;
+}
+
+
+
+.button-notes-a {
+  color: $color-2;
+  background-color: $color-4;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 2px black solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+
+.button-notes-a:hover {
+  background-color: $color-4;
+  color: $color-2;
+  border: 2px $color-6 solid;
+  transform: scale(1.1);
+  background-position: -40px;
+  box-shadow: 0 3px 6px;
+  text-align: center;
+}
+
+//style gestion des notes
+
+// buttons ajouter une note/ accéder aux notes
+.button-modif {
+  position: relative;
+  color: $color-2;
+  background-color: $color-6;
+  border-radius: 6px;
+  width: 190px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 2px black solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-modif:hover {
+  background-color: $color-4;
+  color: $color-2;
+  border: 2px $color-6 solid;
+  transform: scale(1.1);
+  background-position: -40px;
+  box-shadow: 0 3px 6px;
+  text-align: center;
+}
+
+.button-c {
+  position: relative;
+  color: $color-2;
+  background-color: $color-4;
+  border-radius: 6px;
+  width: 190px;
+  height: 45px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 2px black solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-c:hover {
+  background-color: $color-3;
+  color: $color-2;
+  border: 2px $color-6 solid;
+  transform: scale(1.1);
+  background-position: -40px;
+  box-shadow: 0 3px 6px;
+  text-align: center;
+}
+
+// button ajouter une note
+
+.button-add {
+  position: relative;
+  color: $color-2;
+  background-color: $color-6;
+  border-radius: 6px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 2px black solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-add:hover {
+  background-color: $color-4;
+  color: $color-2;
+  border: 2px $color-6 solid;
+  transform: scale(1.1);
+  background-position: -40px;
+  box-shadow: 0 3px 6px;
+  text-align: center;
+}
+
+.card-note {
+  border-radius: 6px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $color-6;
+  border: 2px $color-3 solid;
+  height: 400x;
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+}
+
+.title-card{
+  background-color: $color-4;
+  color: $color-2;
+  text-align: center;
+}
+
+
+.button-modif-c {
+  position: relative;
+  color: $color-2;
+  background-color: $color-6;
+  border-radius: 6px;
+  width: 250px;
+  height: 40px;
+  font-size: 17px;
+  margin-top: 5px;
+  border: 2px black solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-modif-c:hover {
+  background-color: $color-4;
+  color: $color-2;
+  border: 2px $color-1 solid;
+  transform: scale(1.1);
+  background-position: -40px;
+  box-shadow: 0 3px 6px;
+  text-align: center;
+}
+
+.markdown {
+  margin-top: 30px;
+}
