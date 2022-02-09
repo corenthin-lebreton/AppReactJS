@@ -101,6 +101,7 @@ const navigate = useNavigate()
                 <tr>
                   <th>#</th>
                   <th>Titre</th>
+                  <th>Catégorie</th>
                   <th>Note</th>
                   <th>Préviualiser</th>
                   <th>Modifier</th>
